@@ -3,6 +3,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #ccc;
 }
 
 button {
@@ -47,4 +48,21 @@ button {
 
 .row-0 {
   display: flex;
+}
+
+#calculator-display {
+  background-color: lightgreen;
+  border: 1px solid darkolivegreen;
+  border-radius: 4px;
+  width: 13.5em;
+  text-align: right;
+  overflow: hidden;
+}
+
+#calculator-display p {
+  margin: 0;
+  font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
