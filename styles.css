@@ -3,14 +3,15 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #ccc;
+  background-color: teal;
+  margin-top: 25%;
 }
 
 button {
   width: 4em;
   height: 4em;
   background-color: beige;
-  border: 1px solid burlywood;
+  border: 2px solid burlywood;
   border-radius: 4px;
   margin: 0.1em;
 }
@@ -57,6 +58,7 @@ button {
   width: 13.5em;
   overflow: hidden;
   box-sizing: border-box;
+  margin-bottom: 10px;
 }
 
 #display-text {
@@ -69,4 +71,15 @@ button {
   text-align: right;
   box-sizing: border-box;
   outline: none;
+}
+
+#calc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  padding: 20px;
+  border: 2px solid silver;
+  border-radius: 4px;
 }

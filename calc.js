@@ -183,3 +183,7 @@ function handleKeyPress(key) {
   }
   updateDisplay();
 }
+
+document.querySelector(".fun").addEventListener("click", () => {
+  alert("❤️");
+});

@@ -8,39 +8,42 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div id="calculator-display">
-      <input type="text" id="display-text" value="0" readonly />
-    </div>
-    <div class="btns">
-      <div class="num-container">
-        <div class="clear">
-          <button class="c">C</button>
-        </div>
-        <div class="row">
-          <button class="nums" data-num="1">1</button>
-          <button class="nums" data-num="2">2</button>
-          <button class="nums" data-num="3">3</button>
-        </div>
-        <div class="row">
-          <button class="nums" data-num="4">4</button>
-          <button class="nums" data-num="5">5</button>
-          <button class="nums" data-num="6">6</button>
-        </div>
-        <div class="row">
-          <button class="nums" data-num="7">7</button>
-          <button class="nums" data-num="8">8</button>
-          <button class="nums" data-num="9">9</button>
-        </div>
-        <div class="row-0">
-          <button class="nums" data-num="0">0</button>
-          <button class="equals">=</button>
-        </div>
+    <div id="calc">
+      <div id="calculator-display">
+        <input type="text" id="display-text" value="0" readonly />
       </div>
-      <div class="oper-container">
-        <button class="operators" data-op="+">+</button>
-        <button class="operators" data-op="-">-</button>
-        <button class="operators" data-op="*">*</button>
-        <button class="operators" data-op="/">/</button>
+      <div class="btns">
+        <div class="num-container">
+          <div class="clear">
+            <button class="c">C</button>
+          </div>
+          <div class="row">
+            <button class="nums" data-num="1">1</button>
+            <button class="nums" data-num="2">2</button>
+            <button class="nums" data-num="3">3</button>
+          </div>
+          <div class="row">
+            <button class="nums" data-num="4">4</button>
+            <button class="nums" data-num="5">5</button>
+            <button class="nums" data-num="6">6</button>
+          </div>
+          <div class="row">
+            <button class="nums" data-num="7">7</button>
+            <button class="nums" data-num="8">8</button>
+            <button class="nums" data-num="9">9</button>
+          </div>
+          <div class="row-0">
+            <button class="nums" data-num="0">0</button>
+            <button class="equals">=</button>
+          </div>
+        </div>
+        <div class="oper-container">
+          <button class="operators" data-op="+">+</button>
+          <button class="operators" data-op="-">-</button>
+          <button class="operators" data-op="*">*</button>
+          <button class="operators" data-op="/">/</button>
+          <button class="fun">❤️</button>
+        </div>
       </div>
     </div>
   </body>
