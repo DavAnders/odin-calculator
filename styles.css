@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  width: 4em;
+  height: 4em;
+  background-color: beige;
+  border: 1px solid burlywood;
+  border-radius: 4px;
+  margin: 0.1em;
+}
+.clear {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.c {
+  padding-right: 6em;
+  padding-left: 6em;
+}
+.equals {
+  padding-left: 4em;
+  padding-right: 4em;
+  text-align: center;
+}
+.equals button {
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+}
+.btns {
+  display: flex;
+}
+
+.oper-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+.row-0 {
+  display: flex;
+}
