@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="calculator-display">
-      <input type="text" id="display-text" value="0" />
+      <input type="text" id="display-text" value="0" readonly />
     </div>
     <div class="btns">
       <div class="num-container">
@@ -37,10 +37,10 @@
         </div>
       </div>
       <div class="oper-container">
-        <button class="operators">+</button>
-        <button class="operators">-</button>
-        <button class="operators">*</button>
-        <button class="operators">/</button>
+        <button class="operators" data-op="+">+</button>
+        <button class="operators" data-op="-">-</button>
+        <button class="operators" data-op="*">*</button>
+        <button class="operators" data-num="/">/</button>
       </div>
     </div>
   </body>
